@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Developer Portfolio - Classic Simple Design
 
-## Getting Started
+A clean, minimalist developer portfolio built with Next.js and Tailwind CSS. This portfolio features a classic design that focuses on content readability and simplicity.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
+- **Clean, Classic Design** - Intentionally simple and elegant layout
+- **Fully Responsive** - Looks great on all devices (mobile, tablet, desktop)
+- **Project Showcase** - Highlight your projects with descriptions and tech stacks
+- **Easy to Customize** - Simple structure makes it easy to modify for your needs
+- **Performance Optimized** - Fast loading times and optimized images
+- **SEO Friendly** - Built with best practices for search engine optimization
+
+## 💻 Technologies Used
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [Lucide Icons](https://lucide.dev/) - Beautiful open-source icons
+
+## 📋 Prerequisites
+
+- Node.js 18.x or higher
+- npm or yarn
+
+## 🔧 Installation
+
+1. Clone the repository:
+
+```shellscript
+git clone https://github.com/DrLivesey-Shura/my-developer-portfolio.git
+cd my-developer-portfolio
+```
+
+2. Install dependencies:
+
+```shellscript
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
+
+```shellscript
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Personal Information
 
-## Learn More
+Edit the `app/page.tsx` file to update:
 
-To learn more about Next.js, take a look at the following resources:
+- Your name and title
+- Social media links
+- About Me section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Projects
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Update the projects in `lib/data.ts`:
 
-## Deploy on Vercel
+```typescript
+export const projects: ProjectType[] = [
+  {
+    project: 1,
+    title: "Your Project Title",
+    description: "Project description goes here...",
+    techStack: ["Tech1", "Tech2", "Tech3"],
+    githubLink: "https://github.com/yourusername/project",
+    liveLink: "https://your-project-demo.com",
+    image: "/images/your-project-image.png",
+  },
+  // Add more projects...
+];
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Images
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Replace the placeholder images in the `public/images/` directory with your own project screenshots.
+
+### Styling
+
+The portfolio uses Tailwind CSS for styling. You can customize the colors, fonts, and other design elements by editing:
+
+- `app/globals.css` - For global styles
+- `tailwind.config.ts` - For Tailwind configuration
+
+## 📷 Screenshots
+
+![About](./public/images/1.png)
+![projects](./public/images/2.png)
+![Contact](./public/images/3.png)
+
+## 📬 Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- GitHub: [@DrLivesey-Shura](https://github.com/DrLivesey-Shura)
+- Email: [merahalaeddine02@gmail.com](mailto:merahalaeddine02@gmail.com)
+- LinkedIn: [Merah Alaeddine](https://www.linkedin.com/in/merah-alaeddine-599b72263/)
+
+---
+
+Feel free to star ⭐ this repository if you find it useful!
