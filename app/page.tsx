@@ -31,13 +31,13 @@ export default function Home() {
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <div className="text-gray-700 space-y-4">
           <p>
-            I'm a full-stack developer with a passion for building applications
+            Im a full-stack developer with a passion for building applications
             that are fast, scalable, and user-friendly. Over the past few years,
-            I've worked across diverse tech stacks — from MERN and FastAPI to
+            Ive worked across diverse tech stacks — from MERN and FastAPI to
             Flutter and Dockerized deployments.
           </p>
           <p>
-            Beyond web and mobile development, I'm deeply interested in AI/ML,
+            Beyond web and mobile development, Im deeply interested in AI/ML,
             especially using computer vision to solve real-world problems. I
             enjoy designing backend architectures that handle real-time data
             (like WebSocket chats) just as much as creating polished frontends
@@ -45,13 +45,13 @@ export default function Home() {
           </p>
           <p>
             Monitoring, scalability, and clean code are things I obsess over,
-            whether I'm shipping a feature or deploying a full system. When I'm
-            not coding, you'll find me experimenting with new technologies,
+            whether Im shipping a feature or deploying a full system. When Im
+            not coding, youll find me experimenting with new technologies,
             improving existing apps, or optimizing infrastructure with tools
             like Prometheus and Grafana.
           </p>
           <p>
-            I'm excited about building systems that are both innovative and
+            Im excited about building systems that are both innovative and
             impactful — and always looking forward to the next challenge.
           </p>
         </div>
